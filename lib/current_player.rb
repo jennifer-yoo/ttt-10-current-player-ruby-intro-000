@@ -4,7 +4,7 @@ def turn_count(board)
     turn = 0
 if each_turn == "X" || each_turn == "O"
   turn += 1
-  return turn
 end
 end
+turn.length.to_i
 end
