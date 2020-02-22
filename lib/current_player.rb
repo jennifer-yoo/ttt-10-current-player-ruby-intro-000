@@ -11,9 +11,9 @@ end
 def current_player(board)
   player = turn_count(board) % 2
 if player.even? == true
-  "X"
+  return "X"
 elsif player.odd? == true
-  "O"
+  return "O"
 end
-return player.even? = "X" || player.odd? = "O"
+return player.even? || player.odd?
 end
