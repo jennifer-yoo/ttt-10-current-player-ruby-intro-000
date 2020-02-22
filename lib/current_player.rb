@@ -15,4 +15,3 @@ if player.even? = "X"
   els player.odd? = "O"
 end
 end
-
