@@ -10,7 +10,10 @@ end
 
 def current_player(board)
   player = turn_count(board) % 2
-if player.even? == "X"
-elsif player.odd? == "O"
+if player.even? = true
+  "X"
+elsif player.odd? == true
+  "O"
 end
+return player
 end
