@@ -6,5 +6,5 @@ if each_turn == "X" || each_turn == "O"
   turn += 1
 end
 end
-turn.length.to_i
+return turn
 end
