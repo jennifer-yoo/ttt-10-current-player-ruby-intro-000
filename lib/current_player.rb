@@ -8,3 +8,11 @@ end
 end
 return turn
 end
+
+def current_player(board)
+  turn_count % 2 = player
+if player.even? = "X"
+  els player.odd? = "O"
+end
+end
+
