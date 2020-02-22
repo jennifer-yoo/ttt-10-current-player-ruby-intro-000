@@ -15,5 +15,5 @@ if player.even? == true
 elsif player.odd? == true
   "O"
 end
-return player.even? || player.odd?
+return player.even? = "X" || player.odd? = "O"
 end
